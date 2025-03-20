@@ -2,7 +2,7 @@
 #####################################################################
 # AUTOR       : Jefferson Carneiro
 # MODIFICAÇÃO : Jean Majolo
-# PRG         : 
+# PRG         : Rremaster
 # VERSAO      : 1.0
 # LICENCA     : GPLv3
 #
@@ -18,8 +18,8 @@ set -e
 ############################################
 # Configurações Escopo Global
 ############################################
-export ISO_NAME=""
-export CODENAME=""
+export ISO_NAME="Rremaster"
+export CODENAME="Teste"
 export ISO_PUBLISHER="Jean Majolo"
 export DEBIAN_VERSION="bookworm"
 export REPO_ENABLED="main contrib non-free non-free-firmware"

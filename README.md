@@ -17,7 +17,7 @@ Para usar o trixie altere as configurações do Calamares tambem.
 
 ## Modo de uso
 ```
-$ git clone https://github.com/slackjeff/make-debian-live
+$ git clone https://github.com/JeanMajolo/make-debian-live
 $ cd make-debian-live
 # bash gerar_live.sh
 ```

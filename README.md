@@ -9,7 +9,7 @@ totalmente utilizável, com live-cd e com instalador calamares incluso.
 * hooks           = Scripts que serão executados em CHROOT.
 * package-lists   = Lista de pacotes para instalação da live/ambiente final. Tudo que estiver dentro deste diretório será instalado, utilize somente o preset que você deseja.
 * preseed.cfg     = Utilizado para instalador gráfico/cli do debian. Neste caso não é utilizado, pois utilizo o calamares.
-* make-kassandra.sh = Gere a live iso
+* gerar_live.sh = Gere a live iso
 
 ## Nota Calamares
 Por ser configurações do calamares personalizadas e testado no bookworm, no trixie a chance de ter problemas é grande.
@@ -19,7 +19,7 @@ Para usar o trixie altere as configurações do Calamares tambem.
 ```
 $ git clone https://github.com/slackjeff/make-debian-live
 $ cd make-debian-live
-# bash make-kassandra.sh
+# bash gerar_live.sh
 ```
 A iso sera gerada no diretório GENERATE-LIVE-DIR/. Você pode alterar, por exemplo, se deseja trocar para gerar a configuração e ISO final com o nome de (meu-debian) altere a variável DIR_CREATE_LIVE:
 ```

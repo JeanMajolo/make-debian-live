@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 #####################################################################
-# AUTOR   : Jefferson Carneiro
-# PRG     : make-kassandra
-# VERSAO  : 1.0
-# LICENCA : GPLv3
+# AUTOR       : Jefferson Carneiro
+# MODIFICAÇÃO : Jean Majolo
+# PRG         : 
+# VERSAO      : 1.0
+# LICENCA     : GPLv3
 #
 # DESC
 # Programa para criaçaõa de live iso da kassandra.
@@ -17,11 +18,11 @@ set -e
 ############################################
 # Configurações Escopo Global
 ############################################
-export ISO_NAME="kassandra"
-export CODENAME="Átermis"
-export ISO_PUBLISHER="Jefferson Carneiro"
+export ISO_NAME=""
+export CODENAME=""
+export ISO_PUBLISHER="Jean Majolo"
 export DEBIAN_VERSION="bookworm"
-export REPO_ENABLED="main non-free-firmware"
+export REPO_ENABLED="main contrib non-free non-free-firmware"
 export USERNAME="live"
 # Modo interativo chroot 0=on 1=off
 export INTERACTIVE="0"
@@ -50,7 +51,7 @@ fi
 
 cat << EOF
 +---------------------------------------------------------+
-| Bem vindo ao live-build da Kassandra 🍄‍🇧🇷               |
+| Bem vindo ao live-build da  🍄‍🇧🇷               |
 | Vamos começar a configuração do live-build...           |
 | Este é um processo que pode demorar dependendo da conf  |
 | de sua máquina e banda.                                 |
